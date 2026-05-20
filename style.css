@@ -85,6 +85,7 @@ body.lang-zh .nav-name .lang-zh { display: inline; }
   gap: 1.75rem;
   flex: 1;
   justify-content: flex-end;
+  align-items: center;
 }
 .nav-link {
   font-family: var(--serif);
@@ -230,12 +231,13 @@ body.lang-zh .nav-name .lang-zh { display: inline; }
 }
 
 .hero-position {
-  font-family: var(--body);
-  font-size: 15px;
+  font-family: var(--mono);
+  font-size: 13px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 1.5rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
 }
 .hero-position a {
   color: #fff;
@@ -243,9 +245,7 @@ body.lang-zh .nav-name .lang-zh { display: inline; }
   text-decoration-color: rgba(255,255,255,0.6);
   text-underline-offset: 3px;
 }
-.hero-position a:hover {
-  text-decoration-color: #fff;
-}
+.hero-position a:hover { text-decoration-color: #fff; }
 
 .hero-bio {
   font-size: 15px;
@@ -306,8 +306,8 @@ body.lang-zh .nav-name .lang-zh { display: inline; }
   box-shadow: 0 1px 0 var(--beige-mid);
 }
 .book-cover-wrap {
-  width: 110px;
-  height: 150px;
+  width: 165px;
+  height: 225px;
   border-radius: 4px;
   overflow: hidden;
   flex-shrink: 0;
@@ -398,8 +398,8 @@ body.lang-zh .nav-name .lang-zh { display: inline; }
 }
 .pub-tab {
   font-family: var(--mono);
-  font-size: 10px;
-  padding: 8px 18px;
+  font-size: 15px;
+  padding: 12px 24px;
   background: transparent;
   border: none;
   border-bottom: 2px solid transparent;
